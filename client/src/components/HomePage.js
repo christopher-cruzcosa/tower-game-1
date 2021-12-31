@@ -10,7 +10,7 @@ function HomePage() {
   }, []);
   return (
     <div>
-      <h1>Public Page</h1>
+      <h1>Cruzcosas Rule and Pauwels Drool!</h1>
       <h3>Public API Data</h3>
       <p>{data && data.message}</p>
     </div>

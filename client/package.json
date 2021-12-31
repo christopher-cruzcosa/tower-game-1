@@ -13,7 +13,20 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "arrow-keys-react": "1.0.6",
+    "color": "^3.1.2",
+    "react-responsive": "^8.0.3",
+    "react-spinners": "^0.8.1",
+    "react-spring": "^8.0.27",
+    "react-switch": "^5.0.1",
+    "react-toggle": "^4.1.1",
+    "react-use-gesture": "^7.0.5",
+    "styled-components": "5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

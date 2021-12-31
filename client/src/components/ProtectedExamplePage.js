@@ -15,14 +15,14 @@ function ProtectedExamplePage() {
   }, []);
 
   return (
-/*     <div>
-      <h1>Protected Stuff</h1>
-      <p>user id: {user.id}</p>
+    <div>
+      <h1>Cruzcosas Rule and Pauwels Drool!</h1>
+      <Tetris />
+      {/* <p>user id: {user.id}</p>
       <p>username: {user.username}</p>
       <h3>Protected API Data Example</h3>
-      {data && <pre>{JSON.stringify(data)}</pre>}
-    </div> */
-    <Tetris />
+      {data && <pre>{JSON.stringify(data)}</pre>} */}
+    </div>
   );
 }
 

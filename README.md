@@ -1,61 +1,37 @@
-# MERN JWT Boilerplate
+# Tower Game 1
 
-## About This Boilerplate
+A new game. 
 
-This setup allows for a Node/Express/React/JWT app which can be easily deployed to Heroku.
+## Installation
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+This application is made using React and requires the following NPM modules: axios, bootstrap, react, react-dom,react-scripts, and web-vitals.
 
-An article on how the server is setup with JWT can be found [here](https://hptechblogs.com/using-json-web-token-for-authentication/). This has been modified to use a mongo database instead of hardcoded array of users.
+## Usage 
 
-The front end has been setup to use JWT as a way of authenticating users and routes. To understand it's structure better please refer to the following article [here](https://hptechblogs.com/using-json-web-token-react/)
 
-Please feel free to modify this code in anyway you see fit for your project. It is a boilerplate setup that tries to make sure you can get something up and running without having to worry about setting up user authentication from scratch.
-I highly suggest you read the articles before jumping in so you can have an better understanding of how everything works in the code. 
+## Credits
 
-Server-side article and using JWT: https://hptechblogs.com/using-json-web-token-for-authentication/
+Created by: Christopher Cruzcosa
 
-Front End article on using the JWT on a react application: https://hptechblogs.com/using-json-web-token-react/
 
-## Starting the app locally
+## License
 
-Add a .env at the top level of this project.
+Copyright (c) [2022] [Christopher Cruzcosa]
 
-Then inside of the .env add a SERVER_SECRET set to any value you'd like
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-```
-SERVER_SECRET = 123456
-```
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Start by installing front and backend dependencies. While in the root directory, run the following command:
-
-```
-npm install
-```
-
-After all installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-### Create a Git Repo
-
-Once you're ready to deploy, start by making sure your project is a git repository. If so, proceed to the next section, otherwise run the following commands in your terminal:
-
-```
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-### Deploying
-
-1. Go onto your heroku account and link your repository through the UI
-2. Provision a Mongo Database (MongoDB Atlas provides a free sandbox cluster)
-3. Add `SERVER_SECRET` and `MONGODB_URI` to the Heroku config.
-4. Go back and click "Deploy"
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

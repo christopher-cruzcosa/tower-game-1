@@ -31,3 +31,5 @@ function App() {
     </ProvideAuth>
   );
 }
+
+export default App;

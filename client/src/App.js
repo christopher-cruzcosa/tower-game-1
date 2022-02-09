@@ -7,15 +7,15 @@ import Navbar from "./components/Navbar";
 import ProtectedExamplePage from "./components/ProtectedExamplePage";
 import { ProvideAuth } from "./util/authContext";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Tetris from "./components/Tetris";
 
 function App() {
   return (
     <ProvideAuth>
       <Router>
-        <Navbar />
         <Switch>
           <Route exact path="/">
-            <HomePage />
+            <Tetris />
           </Route>
           <Route path="/login">
             <LoginPage />
